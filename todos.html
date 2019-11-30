@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Todos</title>
+
+    <meta name="viewport"
+        content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <div class="user-profile">
+                <img src="https://picsum.photos/150" class="user-image" alt="André Baltieri">
+                <br>
+                André Baltieri <br>
+                <small><a href="#">sair</a></small>
+            </div>
+            <br>
+            <div class="text-center">
+                <ul class="tabs">
+                    <li>
+                        <h1><a href="#" class="selected">Hoje</a></h1>
+                    </li>
+                    <li>
+                        <h1><a href="#">Amanhã</a></h1>
+                    </li>
+                    <li>
+                        <h1><a href="">Todas</a></h1>
+                    </li>
+                </ul>
+            </div>
+            <br>
+            <!-- <p class="text-center"><em>No tasks found!</em></p> -->
+            <ul class="todos">
+                <li>
+                    <a href="#">Passear com o cachorro</a>
+                    <a href="#" class="remove-item pull-right"><i class="fa fa-trash"></i></a>
+                </li>
+                <li class="done">
+                    <a href="#">Ir ao supermercado</a>
+                    <a href="#" class="remove-item pull-right"><i class="fa fa-trash"></i></a>
+                </li>
+                <li>
+                    <a href="#">Preparar aulas de HTML/CSS</a>
+                    <a href="#" class="remove-item pull-right"><i class="fa fa-trash"></i></a>
+                </li>
+                <li>
+                    <a href="#">Ir para academia</a>
+                    <a href="#" class="remove-item pull-right"><i class="fa fa-trash"></i></a>
+                </li>
+                <li>
+                    <a href="#">Lavar a louça</a>
+                    <a href="#" class="remove-item pull-right"><i class="fa fa-trash"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- <div class="modal">
+        <div class="card">
+            <h1>Deseja remover este item?</h1>
+            <p>
+                Ir ao supermercado
+            </p>
+            <br>
+            <button class="pull-left" class="button-clear">Cancelar</button>
+            <button class="pull-right">Remover</button>
+        </div>
+    </div> -->
+</body>
+
+</html>
